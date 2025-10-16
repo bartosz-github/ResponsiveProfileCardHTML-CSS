@@ -47,6 +47,12 @@ body {
     border: 3px solid #fff;
 }
 
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* 
 // <weight>: Use a value from 100 to 800
