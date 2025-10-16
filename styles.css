@@ -1,3 +1,35 @@
+/* Google Fonts - SUSE Mono */
+/* https://fonts.google.com/specimen/SUSE+Mono?sort=date */
+@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 body {
     background-color: lightslategray;
 }
+
+* {
+     font-family: "SUSE Mono", sans-serif;
+}
+
+.image {
+    position: relative;
+    height: 400px;
+    width: 300px;
+}
+
+.image .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* 
+// <weight>: Use a value from 100 to 800
+// <uniquifier>: Use a unique and descriptive class name
+
+.suse-mono-<uniquifier> {
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
