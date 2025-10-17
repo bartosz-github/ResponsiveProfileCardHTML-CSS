@@ -65,8 +65,16 @@ body {
     font-weight: 400;
 }
 
+.profile-card .media-buttons {
+    display: flex;
+    align-items: center;
+}
 
-
+.media-buttons .link {
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+}
 /* 
 // <weight>: Use a value from 100 to 800
 // <uniquifier>: Use a unique and descriptive class name
